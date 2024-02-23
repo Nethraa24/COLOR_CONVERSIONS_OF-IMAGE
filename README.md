@@ -44,14 +44,14 @@ Split and merge HSV Image
 
 ### i) Read and display the image
 
-``python
-    import cv2
+```python
+import cv2
     image=cv2.imread('dog.jpg',1)
     image=cv2.resize(image,(300,300))
     cv2.imshow('leann',image)
     cv2.waitKey(0)
     cv2.destroyAllWindows()
-``
+```
 ![306837446-511066c7-2da2-4f9d-97e8-d56bb89f2cb2](https://github.com/Nethraa24/COLOR_CONVERSIONS_OF-IMAGE/assets/121215786/75b4181f-94da-4a99-85a2-8854b65adc22)
 
 
@@ -72,11 +72,11 @@ Split and merge HSV Image
 <br>
 
 ### iii)Shape of the Image
-``python
-    import cv2
+```python
+import cv2
     image=cv2.imread('dop.jpg',1)
     print(image.shape)
-``
+```
 
 ![306837600-e299be1b-47a2-4fc0-a55b-49d95eee71b7](https://github.com/Nethraa24/COLOR_CONVERSIONS_OF-IMAGE/assets/121215786/cb7d6aa5-09c1-4127-8f93-b7d227f814f5)
 
@@ -84,7 +84,7 @@ Split and merge HSV Image
 <br>
 
 ### iv)Access rows and columns
-``python
+```python
 import random
     import cv2
     image=cv2.imread('dog.jpg',1)
@@ -97,7 +97,7 @@ import random
     cv2.imshow('part image',image)
     cv2.waitKey(0)
     cv2.destroyAllWindows()
-``
+```
 
 
 
@@ -106,7 +106,7 @@ import random
 <br>
 
 ### v)Cut and paste portion of image
-``python
+```python
 import cv2
 image=cv2.imread('dog.jpg',1)
 image=cv2.resize(image,(300,300))
@@ -117,7 +117,7 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 <br>
 <br>
-``
+```
 
 ![306837817-3330886b-5a0b-4d66-b7e4-4e3c59f3b08c](https://github.com/Nethraa24/COLOR_CONVERSIONS_OF-IMAGE/assets/121215786/61586a5d-291c-47ba-9c55-03bca8cfc64e)
 
@@ -125,7 +125,7 @@ cv2.destroyAllWindows()
 ![306837871-6c20b5b4-bca6-4347-8001-e7f8e0c86184](https://github.com/Nethraa24/COLOR_CONVERSIONS_OF-IMAGE/assets/121215786/85e08352-56e2-480a-853b-08c792802346)
 
 ### vi) BGR and RGB to HSV and GRAY
-``python
+```python
 import cv2
 img = cv2.imread('dog.jpg',1)
 img = cv2.resize(img,(200,200))
@@ -145,7 +145,7 @@ cv2.imshow('RGB2GRAY',gray2)
 
 cv2.waitKey(0)
 cv2.destroyAllWindows()
-``
+```
 
 ![306837997-b7cab5a1-2df4-405a-bb55-87f1b5f8c36d](https://github.com/Nethraa24/COLOR_CONVERSIONS_OF-IMAGE/assets/121215786/ffc2b392-77e0-46b4-812c-fcf7805cfce8)
 
@@ -153,7 +153,7 @@ cv2.destroyAllWindows()
 <br>
 
 ### vii) HSV to RGB and BGR
-``python
+```python
 import cv2
 img = cv2.imread('dog.jpg')
 img = cv2.resize(img,(200,200))
@@ -169,7 +169,7 @@ cv2.imshow('HSV2RGB',BGR)
 
 cv2.waitKey(0)
 cv2.destroyAllWindows()
-``
+```
 
 ![306838118-cf2537b6-2e22-4a8a-893f-bcc37a229a24](https://github.com/Nethraa24/COLOR_CONVERSIONS_OF-IMAGE/assets/121215786/9c321caa-9386-4703-99fd-287ff8b989da)
 
@@ -180,7 +180,7 @@ cv2.destroyAllWindows()
 <br>
 
 ### viii) RGB and BGR to YCrCb
-``python
+```python
 import cv2
 img = cv2.imread('dog.jpg')
 img = cv2.resize(img,(200,200))
@@ -194,7 +194,7 @@ cv2.imshow('BGR-2-YCrCb',YCrCb2)
 
 cv2.waitKey(0)
 cv2.destroyAllWindows()
-``
+```
 
 ![306838335-c95783dd-eaad-44c5-a4d2-2ce12a4ef38c](https://github.com/Nethraa24/COLOR_CONVERSIONS_OF-IMAGE/assets/121215786/e634d7c6-c42b-41d9-b62d-ddb0ed929c1f)
 
@@ -205,7 +205,7 @@ cv2.destroyAllWindows()
 <br>
 
 ### ix) Split and merge RGB Image
-``python
+```python
 import cv2
 img = cv2.imread('dog.jpg',1)
 img = cv2.resize(img,(200,200))
@@ -223,7 +223,7 @@ cv2.imshow('Merged RGB image',merged)
 
 cv2.waitKey(0)
 cv2.destroyAllWindows()
-``
+```
 
 ![306838599-c701f36f-0ec3-49a4-8f7c-d9f57a4320de](https://github.com/Nethraa24/COLOR_CONVERSIONS_OF-IMAGE/assets/121215786/a51a1544-c68a-428e-aee3-6e9673200e58)
 
@@ -234,7 +234,7 @@ cv2.destroyAllWindows()
 <br>
 
 ### x) Split and merge HSV Image
-``python
+```python
 import cv2
 img = cv2.imread("dog.jpg",1)
 img = cv2.resize(img,(200,200))
@@ -251,7 +251,7 @@ cv2.imshow('Merged',merged)
 
 cv2.waitKey(0)
 cv2.destroyAllWindows()
-``
+```
 
 ![306838929-bd36115b-df1d-44bb-8af4-067fe67e0cf8](https://github.com/Nethraa24/COLOR_CONVERSIONS_OF-IMAGE/assets/121215786/b209e36e-53e9-4480-9a48-e08b436c9421)
 

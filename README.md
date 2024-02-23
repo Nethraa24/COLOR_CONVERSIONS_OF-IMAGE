@@ -151,6 +151,8 @@ cv2.destroyAllWindows()
 
 ![306837997-b7cab5a1-2df4-405a-bb55-87f1b5f8c36d](https://github.com/Nethraa24/COLOR_CONVERSIONS_OF-IMAGE/assets/121215786/ffc2b392-77e0-46b4-812c-fcf7805cfce8)
 
+![306838034-2067c42a-2f5c-4bbc-8140-7e13c4962c24](https://github.com/Nethraa24/COLOR_CONVERSIONS_OF-IMAGE/assets/121215786/ed39260e-8125-4ccd-be0e-d9e23e3bade7)
+
 <br>
 <br>
 

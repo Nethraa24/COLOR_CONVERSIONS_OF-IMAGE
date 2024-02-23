@@ -101,8 +101,7 @@ Split and merge HSV Image
 
 ![306837690-0aad0969-3f2d-4280-b03f-89e6a2f3aa25](https://github.com/Nethraa24/COLOR_CONVERSIONS_OF-IMAGE/assets/121215786/a9c091cb-3f1a-40c0-a8de-693b84824e95)
 
-![Uploading 306837707-b86a80f7-8a67-43ae-87f5-bc8e5696305e.png…]()
-
+![306837707-b86a80f7-8a67-43ae-87f5-bc8e5696305e](https://github.com/Nethraa24/COLOR_CONVERSIONS_OF-IMAGE/assets/121215786/fee857c7-e207-4356-9c84-626f3f3fb5ba)
 
 
 <br>

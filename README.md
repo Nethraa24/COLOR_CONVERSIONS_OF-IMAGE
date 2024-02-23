@@ -45,7 +45,7 @@ Split and merge HSV Image
 ### i) Read and display the image
 
 ```python
-import cv2
+    import cv2
     image=cv2.imread('dog.jpg',1)
     image=cv2.resize(image,(300,300))
     cv2.imshow('leann',image)
@@ -61,11 +61,11 @@ import cv2
 <br>
 
 ### ii)Write the image
-``python
+```python
     import cv2
     image=cv2.imread('dog.jpg',0)
     cv2.imwrite('demos.jpg',image)
-``
+```
 ![306837513-2fb55463-56ec-40da-8d6b-af8e87a30242](https://github.com/Nethraa24/COLOR_CONVERSIONS_OF-IMAGE/assets/121215786/c5ee3f73-8b2b-4794-874e-fb6eca2a7bf8)
 
 <br>

@@ -73,7 +73,7 @@ Split and merge HSV Image
 
 ### iii)Shape of the Image
 ```python
-import cv2
+    import cv2
     image=cv2.imread('dop.jpg',1)
     print(image.shape)
 ```
@@ -85,7 +85,7 @@ import cv2
 
 ### iv)Access rows and columns
 ```python
-import random
+    import random
     import cv2
     image=cv2.imread('dog.jpg',1)
     image=cv2.resize(image,(500,500))
@@ -99,6 +99,9 @@ import random
     cv2.destroyAllWindows()
 ```
 
+![306837690-0aad0969-3f2d-4280-b03f-89e6a2f3aa25](https://github.com/Nethraa24/COLOR_CONVERSIONS_OF-IMAGE/assets/121215786/a9c091cb-3f1a-40c0-a8de-693b84824e95)
+
+![Uploading 306837707-b86a80f7-8a67-43ae-87f5-bc8e5696305e.png…]()
 
 
 

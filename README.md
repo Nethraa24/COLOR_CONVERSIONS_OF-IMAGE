@@ -56,6 +56,7 @@ Split and merge HSV Image
 
 <br>
 <br>
+
 ### ii)Write the image
 ```python
     import cv2
@@ -193,6 +194,7 @@ cv2.destroyAllWindows()
 
 <br>
 <br>
+
 ### ix) Split and merge RGB Image
 ```python
 import cv2
